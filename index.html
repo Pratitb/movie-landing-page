@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joker (2019)</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="images/logo.png" alt="Movie Logo"></a>
+        <div class="toggle"><img src="images/toggle.png" alt="Menu Icon"></div>
+    </header>
+    <div class="banner">
+        <div class="content">
+            <h2>Put on a <span>Happy</span> face</h2>
+            <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+            <a href="#" class="play" id="playBtn" onclick="toggle();"><img src="images/play.png" alt="Video Play button">Watch Trailer</a>
+            <div class="slide"></div>
+            <ul class="sm-icons">
+                <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+                <li><a href="#"><img src="images/instagram.png" alt=""></a></li>
+                <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="trailer">
+        <video src="video/bg.mp4" controls></video>
+        <img src="images/close.png" alt="Close Video Button" class="close"  onclick="toggle();">
+    </div>
+    <script>
+        function toggle(){
+            var trailer = document.querySelector('.trailer');
+            var video = document.querySelector('video');
+            trailer.classList.toggle('active');
+            video.currentTime = 0;
+            video.pause();
+        }
+    </script>
+</body>
+</html>
