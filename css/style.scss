@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap");
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 header{
@@ -199,13 +201,7 @@ header{
             left: 0!important;
             margin: 20px 0px;
         }
-        .sm-icons{
-            left: initial!important;
-            right: initial!important;
-            top: initial!important;
-            flex-direction: row!important;
-            margin-top: 50px;
-        }
+        
     }
     video{
         max-width: 90%!important;
@@ -213,3 +209,7 @@ header{
 
     
 }
+
+@import 'responsive-00';
+@import 'responsive-01';
+@import 'responsive-02';

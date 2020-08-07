@@ -1,0 +1,30 @@
+@media(min-width:376px) and (max-width:450px){
+    .banner{
+        padding: 7em 2em;
+        .content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h2{
+                font-size: 1.4em;
+                letter-spacing: 0.2em;
+            }
+            p{
+                font-size: 1.1em;
+            }
+            .play{
+                font-size: 1em;
+                img{
+                    max-width: 30px;
+                }
+            }
+            .sm-icons{
+                position: inherit;
+                flex-direction: row;
+                position: inherit;
+                transform: inherit;
+            }
+        }
+    }
+}

@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap");
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 header {
@@ -245,18 +247,139 @@ header .toggle img {
     left: 0 !important;
     margin: 20px 0px;
   }
-  .banner .sm-icons {
-    left: initial !important;
-    right: initial !important;
-    top: initial !important;
-    -webkit-box-orient: horizontal !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: row !important;
-            flex-direction: row !important;
-    margin-top: 50px;
-  }
   video {
     max-width: 90% !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+  .banner {
+    padding: 7em 2em;
+  }
+  .banner .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .banner .content h2 {
+    font-size: 1.2em;
+  }
+  .banner .content p {
+    font-size: 1em;
+  }
+  .banner .content .play {
+    font-size: 0.8em;
+  }
+  .banner .content .play img {
+    max-width: 30px;
+  }
+  .banner .content .sm-icons {
+    position: inherit;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: inherit;
+    -webkit-transform: inherit;
+            transform: inherit;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 375px) {
+  .banner {
+    padding: 7em 2em;
+  }
+  .banner .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .banner .content h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+  }
+  .banner .content p {
+    font-size: 1em;
+  }
+  .banner .content .play {
+    font-size: 0.8em;
+  }
+  .banner .content .play img {
+    max-width: 30px;
+  }
+  .banner .content .sm-icons {
+    position: inherit;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: inherit;
+    -webkit-transform: inherit;
+            transform: inherit;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 450px) {
+  .banner {
+    padding: 7em 2em;
+  }
+  .banner .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .banner .content h2 {
+    font-size: 1.4em;
+    letter-spacing: 0.2em;
+  }
+  .banner .content p {
+    font-size: 1.1em;
+  }
+  .banner .content .play {
+    font-size: 1em;
+  }
+  .banner .content .play img {
+    max-width: 30px;
+  }
+  .banner .content .sm-icons {
+    position: inherit;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: inherit;
+    -webkit-transform: inherit;
+            transform: inherit;
   }
 }
 /*# sourceMappingURL=style.css.map */
